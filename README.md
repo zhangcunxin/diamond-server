@@ -1,2 +1,0 @@
-# diamond-server
-diamond-server
