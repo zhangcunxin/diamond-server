@@ -49,6 +49,7 @@ public class AdminService {
     }
 
 
+    // zhangcx 
     public synchronized boolean login(String userName, String password) {
         String passwordInFile = this.properties.getProperty(userName);
         if (passwordInFile != null) return passwordInFile.equals(password);
